@@ -10,28 +10,6 @@
 		<true/>
 		<key>FixHeaders</key>
 		<true/>
-		<key>Comment-DisabledAML</key>
-		<string>Disable other forms of CPU PM due to SSDT/Generate/PluginType=true</string>
-		<key>DisabledAML</key>
-		<array>
-			<string>SSDT.aml</string>
-			<string>SSDT-XCPM.aml</string>
-			<string>SSDT-PluginType1.aml</string>
-		</array>
-		<key>DSDT</key>
-		<dict>
-			<key>DropOEM_DSM</key>
-			<false/>
-			<key>Fixes</key>
-			<dict>
-			</dict>
-			<key>Patches</key>
-			<array>
-			</array>
-		</dict>
-		<key>DropTables</key>
-		<array>
-		</array>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -48,9 +26,9 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string></string>
+		<string>-v</string>
 		<key>CustomLogo</key>
-		<string>Apple</string>
+		<false/>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -149,26 +127,10 @@
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
-		<key>AppleIntelCPUPM</key>
-		<true/>
-		<key>AppleRTC</key>
-		<true/>
-		<key>DellSMBIOSPatch</key>
-		<true/>
-		<key>KernelLapic</key>
-		<true/>
-		<key>KernelPm</key>
-		<true/>
 		<key>ForceKextsToLoad</key>
 		<array>
 			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
 			<string>\System\Library\Extensions\AppleIntelSKLGraphicsFramebuffer.kext</string>
-		</array>
-		<key>KextsToPatch</key>
-		<array>
-		</array>
-		<key>KernelToPatch</key>
-		<array>
 		</array>
 	</dict>
 	<key>RtVariables</key>
