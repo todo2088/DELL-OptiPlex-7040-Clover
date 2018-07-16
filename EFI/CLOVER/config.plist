@@ -53,7 +53,6 @@
 	<key>DisableDrivers</key>
 	<array>
 		<string>HFSPlus</string>
-		<string>NvmExpressDxe-64</string>
 	</array>
 	<key>GUI</key>
 	<dict>
