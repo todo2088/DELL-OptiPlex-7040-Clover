@@ -59,7 +59,7 @@
 	</dict>
 	<key>DisableDrivers</key>
 	<array>
-		<string>VBoxHfs</string>
+		<string>HFSPlus</string>
 	</array>
 	<key>GUI</key>
 	<dict>
@@ -87,11 +87,6 @@
 		<array>
 			<string>Preboot</string>
 		</array>
-		<key>Mouse</key>
-		<dict>
-			<key>Enabled</key>
-			<false/>
-		</dict>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
@@ -108,30 +103,13 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
-		<key>EDID</key>
-		<dict>
-			<key>Inject</key>
-			<false/>
-		</dict>
 		<key>ig-platform-id</key>
 		<string>0x19120000</string>
 		<key>Inject</key>
 		<dict>
-			<key>ATI</key>
-			<false/>
 			<key>Intel</key>
 			<true/>
-			<key>NVidia</key>
-			<false/>
 		</dict>
-	</dict>
-	<key>KernelAndKextPatches</key>
-	<dict>
-		<key>ForceKextsToLoad</key>
-		<array>
-			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
-			<string>\System\Library\Extensions\AppleIntelSKLGraphicsFramebuffer.kext</string>
-		</array>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
