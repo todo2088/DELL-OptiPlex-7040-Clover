@@ -49,8 +49,6 @@
 		<dict>
 			<key>FixOwnership</key>
 			<true/>
-			<key>AddClockID</key>
-			<true/>
 			<key>Inject</key>
 			<true/>
 		</dict>
@@ -63,41 +61,21 @@
 	</array>
 	<key>GUI</key>
 	<dict>
-		<key>Custom</key>
+		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
-			<array>
-				<dict>
-					<key>Disabled</key>
-					<false/>
-					<key>FullTitle</key>
-					<string>UEFI internal</string>
-					<key>Hidden</key>
-					<string>Always</string>
-					<key>Ignore</key>
-					<false/>
-					<key>NoCaches</key>
-					<false/>
-					<key>Type</key>
-					<string>Other</string>
-				</dict>
-			</array>
+			<true/>
+			<key>Tool</key>
+			<true/>
+			<key>Linux</key>
+			<true/>
+			<key>Legacy</key>
+			<false/>
 		</dict>
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
 		</array>
-		<key>Scan</key>
-		<dict>
-			<key>Entries</key>
-			<true/>
-			<key>Legacy</key>
-			<false/>
-			<key>Linux</key>
-			<true/>
-			<key>Tool</key>
-			<true/>
-		</dict>
 		<key>Theme</key>
 		<string>SimpleThemeDark</string>
 	</dict>
