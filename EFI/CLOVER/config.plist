@@ -72,7 +72,7 @@
 			<string>Preboot</string>
 		</array>
 		<key>Theme</key>
-		<string>SimpleThemeDark</string>
+		<string>Hackintosh_ID</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -94,7 +94,7 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>ProductName</key>
-		<string>MacBookAir6,2</string>
+		<string>iMac17,1</string>
 		<key>Trust</key>
 		<true/>
 	</dict>
