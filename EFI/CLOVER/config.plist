@@ -10,6 +10,14 @@
 		<true/>
 		<key>FixHeaders</key>
 		<true/>
+		<key>DSDT</key>
+		<dict>
+			<key>Fixes</key>
+			<dict>
+				<key>FixRTC</key>
+				<true/>
+			</dict>
+		</dict>
 		<key>#SSDT-Comment</key>
 		<string>Need to disable SSDT/Generate explicitly to use generic power managerment</string>
 		<key>SSDT</key>
@@ -83,6 +91,11 @@
 			<key>Intel</key>
 			<true/>
 		</dict>
+	</dict>
+	<key>KernelAndKextPatches</key>
+	<dict>
+		<key>AppleRTC</key>
+		<false/>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
