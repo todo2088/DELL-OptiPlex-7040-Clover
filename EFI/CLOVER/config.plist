@@ -35,7 +35,7 @@
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
-		<true/>
+		<false/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
@@ -58,10 +58,6 @@
 		<key>UseIntelHDMI</key>
 		<true/>
 	</dict>
-	<key>DisableDrivers</key>
-	<array>
-		<string>HFSPlus</string>
-	</array>
 	<key>GUI</key>
 	<dict>
 		<key>Scan</key>
@@ -84,8 +80,6 @@
 	</dict>
 	<key>Graphics</key>
 	<dict>
-		<key>ig-platform-id</key>
-		<string>0x19120000</string>
 		<key>Inject</key>
 		<dict>
 			<key>Intel</key>
