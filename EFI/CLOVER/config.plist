@@ -46,7 +46,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>3</integer>
+			<integer>27</integer>
 		</dict>
 		<key>USB</key>
 		<dict>
