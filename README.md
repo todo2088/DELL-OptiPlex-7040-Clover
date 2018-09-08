@@ -12,3 +12,5 @@ Test with DELL OptiPlex 7040 which using i7-6700, Intel HD Graphics 530, Intel I
 - For OptiPlex 7040 the CFG lock address is 0xAF, so "setup_var 0xAF 0x0" to Disable CFG lock(MSR 0xE2)
 - DVMT Pre-Allocated address is 0x350, so "setup_var 0x350 0x3" to set 96MB [中文教程](https://zhuanlan.zhihu.com/p/39798235)
 - Note: the DVMT & CFG lock fixup will lose after set BOIS to factory default!
+
+If you don't want to fix the BIOS, you can just using the DVMTfixup hotpatch by just using CLOVER, see this branch [https://github.com/irelandKen/DELL-OptiPlex-7040-Clover/tree/withoutbiosfix] 
