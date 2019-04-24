@@ -23,3 +23,8 @@ If you don't want to fix the BIOS, you can just using the WhateverGreen hotpatch
 3. just run `setup_var 0x350 0x2` using this cmd line
 
 4. fine, the graphics is ok to boot up macOS
+
+### Know issue 
+1. Just one DP port work
+   
+   you need to switch to an other DP port and reboot, if no DP signal after you see the "white apple" startup logo.
