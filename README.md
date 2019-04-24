@@ -11,3 +11,15 @@ Test with DELL OptiPlex 7040 which using i7-6700, Intel HD Graphics 530, Intel I
 - Note: the DVMT fixup will lose after set BOIS to factory default!
 
 If you don't want to fix the BIOS, you can just using the WhateverGreen hotpatch by just using CLOVER, see this branch [https://github.com/irelandKen/DELL-OptiPlex-7040-Clover/tree/macOS_10.14] 
+
+
+## DVMT fix step
+1. unzip 'EFI-shell.zip' to a FAT32 partition of a USB disk
+   
+   you will see some thing like this : "/Volumes/UDISK/EFI/BOOT/bootx64.efi"
+2. reboot you machine using this this USB disk in UEFI BOOT MODE
+   
+   and you will see a cmd line
+3. just run `setup_var 0x350 0x2` using this cmd line
+
+4. fine, the graphics is ok to boot up macOS
