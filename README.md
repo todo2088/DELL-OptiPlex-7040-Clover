@@ -14,10 +14,12 @@ If you don't want to fix the BIOS, you can just using the WhateverGreen hotpatch
 
 
 ## DVMT fix step
-1. unzip 'EFI-shell.zip' to a FAT32 partition of a USB disk
+1. unzip 'EFI-shell.zip' to a `FAT32` partition of a USB disk
    
-   you will see some thing like this : "/Volumes/UDISK/EFI/BOOT/bootx64.efi"
-2. reboot you machine using this this USB disk in UEFI BOOT MODE
+   you will see some thing like this : "/Volumes/UDISK/EFI/BOOT/bootx64.efi" 
+   
+   or "E:/EFI/BOOT/bootx64.efi" 
+2. reboot you machine using this this USB disk in `UEFI BOOT MODE`
    
    and you will see a cmd line
 3. just run `setup_var 0x350 0x2` using this cmd line
