@@ -10,7 +10,7 @@ Test with DELL OptiPlex 7040 which using i7-6700, Intel HD Graphics 530, Intel I
 - DVMT Pre-Allocated address is 0x350, so "setup_var 0x350 0x2" to set 64MB [中文教程](https://zhuanlan.zhihu.com/p/39798235)
 - Note: the DVMT fixup will lose after set BOIS to factory default!
 
-If you don't want to fix the BIOS, you can just using the WhateverGreen hotpatch by just using CLOVER, see this branch [https://github.com/irelandKen/DELL-OptiPlex-7040-Clover/tree/macOS_10.14] 
+If you don't want to fix the BIOS, you can just using the WhateverGreen hotpatch by just using CLOVER, see this branch [https://github.com/irelandKen/DELL-OptiPlex-7040-Clover/tree/macOS_10.14.2_WhateverGreen] 
 
 
 ## DVMT fix step
