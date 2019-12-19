@@ -1,0 +1,170 @@
+24:649  2:848  Found BIOS RSDP at F0040
+24:649  0:000  Printing ACPI tables from RSDP F0040 ...
+24:649  0:000   F0040: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+24:649  0:000    (Xsdt: DB73C0A0, Rsdt: DB73C028)
+24:649  0:000    DB73C0A0: 'XSDT', 'CBX3', Rev: 1, Len: 196
+24:649  0:000    DB73C028: 'RSDT', 'CBX3', Rev: 1, Len: 116
+24:649  0:000    Tables in Xsdt: 20
+24:649  0:000    0. DB75EA70: 'FACP', 'CBX3', Rev: 5, Len: 268
+24:649  0:000        (Dsdt: DB73C1F8, Facs: DBF25D80, XDsdt: DB73C1F8, XFacs: 0)
+24:649  0:000        DB73C1F8: 'DSDT', 'CBX3', Rev: 2, Len: 141429
+24:651  0:002        DBF25D80: 'FACS', Ver: 2, Len: 64
+24:651  0:000    1. DB75EB80: 'APIC', 'CBX3', Rev: 3, Len: 132
+24:651  0:000    2. DB75EC08: 'FPDT', 'CBX3', Rev: 1, Len: 68
+24:651  0:000    3. DB75EC50: 'MCFG', 'CBX3', Rev: 1, Len: 60
+24:651  0:000    4. DB75EC90: 'HPET', 'CBX3', Rev: 1, Len: 56
+24:651  0:000    5. DB75ECC8: 'SSDT', 'SaSsdt', Rev: 2, Len: 21612
+24:651  0:000    6. DB764138: 'UEFI', '', Rev: 1, Len: 66
+24:651  0:000    7. DB764180: 'LPIT', 'SKL', Rev: 1, Len: 148
+24:651  0:000    8. DB764218: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+24:651  0:000    9. DB764460: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+24:651  0:000    10. DB767010: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+24:651  0:000    11. DB767BF8: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+24:651  0:000    12. DB7680A0: 'DBGP', '', Rev: 1, Len: 52
+24:651  0:000    13. DB7680D8: 'DBG2', '', Rev: 0, Len: 84
+24:651  0:000    14. DB768130: 'SSDT', 'DELL__MT', Rev: 2, Len: 1555
+24:651  0:000    15. DB768748: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+24:651  0:000    16. DB7695C0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+24:651  0:000    17. DB769738: 'BGRT', '', Rev: 0, Len: 56
+24:651  0:000    18. DB769770: 'ASF!', ' HCG', Rev: 32, Len: 165
+24:651  0:000    19. DB769818: 'DMAR', 'SKL', Rev: 1, Len: 168
+24:651  0:000    Tables in Rsdt: 20
+24:651  0:000    0. DB73C170: 'FACP', 'CBX3', Rev: 2, Len: 132
+24:651  0:000        (Dsdt: DB73C1F8, Facs: DBF25D40)
+24:651  0:000        DB73C1F8: 'DSDT', 'CBX3', Rev: 2, Len: 141429
+24:653  0:002        DBF25D40: 'FACS', Ver: 0, Len: 64
+24:653  0:000    1. DB75EB80: 'APIC', 'CBX3', Rev: 3, Len: 132
+24:653  0:000    2. DB75EC08: 'FPDT', 'CBX3', Rev: 1, Len: 68
+24:653  0:000    3. DB75EC50: 'MCFG', 'CBX3', Rev: 1, Len: 60
+24:653  0:000    4. DB75EC90: 'HPET', 'CBX3', Rev: 1, Len: 56
+24:653  0:000    5. DB75ECC8: 'SSDT', 'SaSsdt', Rev: 2, Len: 21612
+24:653  0:000    6. DB764138: 'UEFI', '', Rev: 1, Len: 66
+24:653  0:000    7. DB764180: 'LPIT', 'SKL', Rev: 1, Len: 148
+24:653  0:000    8. DB764218: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+24:653  0:000    9. DB764460: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+24:653  0:000    10. DB767010: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+24:653  0:000    11. DB767BF8: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+24:653  0:000    12. DB7680A0: 'DBGP', '', Rev: 1, Len: 52
+24:653  0:000    13. DB7680D8: 'DBG2', '', Rev: 0, Len: 84
+24:653  0:000    14. DB768130: 'SSDT', 'DELL__MT', Rev: 2, Len: 1555
+24:653  0:000    15. DB768748: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+24:653  0:000    16. DB7695C0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+24:653  0:000    17. DB769738: 'BGRT', '', Rev: 0, Len: 56
+24:653  0:000    18. DB769770: 'ASF!', ' HCG', Rev: 32, Len: 165
+24:653  0:000    19. DB769818: 'DMAR', 'SKL', Rev: 1, Len: 168
+24:653  0:000  Found UEFI Acpi 2.0 RSDP at DB73C000
+24:653  0:000  Saving ACPI tables from RSDP DB73C000 to EFI\CLOVER\ACPI\origin ...
+24:653  0:000   DB73C000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+24:727  0:073    (Xsdt: DB73C0A0, Rsdt: DB73C028)
+24:727  0:000    DB73C0A0: 'XSDT', 'CBX3', Rev: 1, Len: 196 -> XSDT.aml
+24:748  0:021    DB73C028: 'RSDT', 'CBX3', Rev: 1, Len: 116 -> RSDT.aml
+24:771  0:022    Tables in Xsdt: 20
+24:771  0:000    0. DB75EA70: 'FACP', 'CBX3', Rev: 5, Len: 268 -> FACP.aml
+24:792  0:020        (Dsdt: DB73C1F8, Facs: DBF25D80, XDsdt: DB73C1F8, XFacs: 0)
+24:792  0:000        DB73C1F8: 'DSDT', 'CBX3', Rev: 2, Len: 141429 -> DSDT.aml
+24:818  0:026        DBF25D80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+24:839  0:020    1. DB75EB80: 'APIC', 'CBX3', Rev: 3, Len: 132 -> APIC.aml
+24:860  0:020    2. DB75EC08: 'FPDT', 'CBX3', Rev: 1, Len: 68 -> FPDT.aml
+24:881  0:021    3. DB75EC50: 'MCFG', 'CBX3', Rev: 1, Len: 60 -> MCFG.aml
+24:902  0:021    4. DB75EC90: 'HPET', 'CBX3', Rev: 1, Len: 56 -> HPET.aml
+24:923  0:020    5. DB75ECC8: 'SSDT', 'SaSsdt', Rev: 2, Len: 21612 -> SSDT-0-SaSsdt.aml
+24:949  0:025    6. DB764138: 'UEFI', '', Rev: 1, Len: 66 -> UEFI.aml
+24:969  0:020    7. DB764180: 'LPIT', 'SKL', Rev: 1, Len: 148 -> LPIT.aml
+24:991  0:021    8. DB764218: 'SSDT', 'sensrhub', Rev: 2, Len: 584 -> SSDT-1-sensrhub.aml
+25:012  0:021    9. DB764460: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182 -> SSDT-2-PtidDevc.aml
+25:033  0:021    10. DB767010: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043 -> SSDT-3-Ther_Rvp.aml
+25:054  0:020    11. DB767BF8: 'SSDT', 'zpodd', Rev: 2, Len: 1187 -> SSDT-4-zpodd.aml
+25:075  0:021    12. DB7680A0: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+25:096  0:020    13. DB7680D8: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+25:117  0:020    14. DB768130: 'SSDT', 'DELL__MT', Rev: 2, Len: 1555 -> SSDT-5-DELL__MT.aml
+25:138  0:020    15. DB768748: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699 -> SSDT-6-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+25:161  0:023        * DB5FB098: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1698  53 53 44 54 A2 06 00 00 02 2A 50 6D 52 65 66 00 Internal length = 1698 -> SSDT-x6_0-Cpu0Ist.aml
+25:182  0:021        * DB580198: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x6_1-ApIst.aml
+25:203  0:020        * DB580818: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 65 50 6D 52 65 66 00 Internal length = 895 -> SSDT-x6_2-Cpu0Cst.aml
+25:228  0:025        * DB580C18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x6_3-ApCst.aml
+25:249  0:021        * DB5FBF18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2B 50 6D 52 65 66 00 Internal length = 142 -> SSDT-x6_4-Cpu0Hwp.aml
+25:277  0:028        * DB580D98: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FD 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x6_5-ApHwp.aml
+25:297  0:019        * DB580018: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 85 50 6D 52 65 66 00 Internal length = 304 -> SSDT-x6_6-HwpLvt.aml
+25:318  0:021  
+25:318  0:000    16. DB7695C0: 'SLIC', 'CBX3', Rev: 3, Len: 374 -> SLIC.aml
+25:339  0:020    17. DB769738: 'BGRT', '', Rev: 0, Len: 56 -> BGRT.aml
+25:360  0:021    18. DB769770: 'ASF!', ' HCG', Rev: 32, Len: 165 -> ASF!.aml
+25:381  0:020    19. DB769818: 'DMAR', 'SKL', Rev: 1, Len: 168 -> DMAR.aml
+25:402  0:021    Tables in Rsdt: 20
+25:402  0:000    0. DB73C170: 'FACP', 'CBX3', Rev: 2, Len: 132 -> RSDT-FACP.aml
+25:423  0:021        (Dsdt: DB73C1F8, Facs: DBF25D40)
+25:423  0:000        DB73C1F8: 'DSDT', 'CBX3', Rev: 2, Len: 141429
+25:425  0:002        DBF25D40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+25:446  0:020    1. DB75EB80: 'APIC', 'CBX3', Rev: 3, Len: 132
+25:446  0:000    2. DB75EC08: 'FPDT', 'CBX3', Rev: 1, Len: 68
+25:446  0:000    3. DB75EC50: 'MCFG', 'CBX3', Rev: 1, Len: 60
+25:446  0:000    4. DB75EC90: 'HPET', 'CBX3', Rev: 1, Len: 56
+25:446  0:000    5. DB75ECC8: 'SSDT', 'SaSsdt', Rev: 2, Len: 21612
+25:446  0:000    6. DB764138: 'UEFI', '', Rev: 1, Len: 66
+25:446  0:000    7. DB764180: 'LPIT', 'SKL', Rev: 1, Len: 148
+25:446  0:000    8. DB764218: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+25:446  0:000    9. DB764460: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+25:446  0:000    10. DB767010: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+25:446  0:000    11. DB767BF8: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+25:446  0:000    12. DB7680A0: 'DBGP', '', Rev: 1, Len: 52
+25:446  0:000    13. DB7680D8: 'DBG2', '', Rev: 0, Len: 84
+25:446  0:000    14. DB768130: 'SSDT', 'DELL__MT', Rev: 2, Len: 1555
+25:446  0:000    15. DB768748: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+25:446  0:000    16. DB7695C0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+25:446  0:000    17. DB769738: 'BGRT', '', Rev: 0, Len: 56
+25:446  0:000    18. DB769770: 'ASF!', ' HCG', Rev: 32, Len: 165
+25:446  0:000    19. DB769818: 'DMAR', 'SKL', Rev: 1, Len: 168
+25:446  0:000  Found UEFI Acpi 1.0 RSDP at DB73C000
+25:446  0:000  Printing ACPI tables from RSDP DB73C000 ...
+25:446  0:000   DB73C000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+25:446  0:000    (Xsdt: DB73C0A0, Rsdt: DB73C028)
+25:446  0:000    DB73C0A0: 'XSDT', 'CBX3', Rev: 1, Len: 196
+25:446  0:000    DB73C028: 'RSDT', 'CBX3', Rev: 1, Len: 116
+25:446  0:000    Tables in Xsdt: 20
+25:446  0:000    0. DB75EA70: 'FACP', 'CBX3', Rev: 5, Len: 268
+25:446  0:000        (Dsdt: DB73C1F8, Facs: DBF25D80, XDsdt: DB73C1F8, XFacs: 0)
+25:446  0:000        DB73C1F8: 'DSDT', 'CBX3', Rev: 2, Len: 141429
+25:448  0:002        DBF25D80: 'FACS', Ver: 2, Len: 64
+25:448  0:000    1. DB75EB80: 'APIC', 'CBX3', Rev: 3, Len: 132
+25:448  0:000    2. DB75EC08: 'FPDT', 'CBX3', Rev: 1, Len: 68
+25:448  0:000    3. DB75EC50: 'MCFG', 'CBX3', Rev: 1, Len: 60
+25:448  0:000    4. DB75EC90: 'HPET', 'CBX3', Rev: 1, Len: 56
+25:448  0:000    5. DB75ECC8: 'SSDT', 'SaSsdt', Rev: 2, Len: 21612
+25:448  0:000    6. DB764138: 'UEFI', '', Rev: 1, Len: 66
+25:448  0:000    7. DB764180: 'LPIT', 'SKL', Rev: 1, Len: 148
+25:448  0:000    8. DB764218: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+25:448  0:000    9. DB764460: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+25:448  0:000    10. DB767010: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+25:448  0:000    11. DB767BF8: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+25:448  0:000    12. DB7680A0: 'DBGP', '', Rev: 1, Len: 52
+25:448  0:000    13. DB7680D8: 'DBG2', '', Rev: 0, Len: 84
+25:448  0:000    14. DB768130: 'SSDT', 'DELL__MT', Rev: 2, Len: 1555
+25:448  0:000    15. DB768748: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+25:448  0:000    16. DB7695C0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+25:448  0:000    17. DB769738: 'BGRT', '', Rev: 0, Len: 56
+25:448  0:000    18. DB769770: 'ASF!', ' HCG', Rev: 32, Len: 165
+25:448  0:000    19. DB769818: 'DMAR', 'SKL', Rev: 1, Len: 168
+25:448  0:000    Tables in Rsdt: 20
+25:448  0:000    0. DB73C170: 'FACP', 'CBX3', Rev: 2, Len: 132
+25:448  0:000        (Dsdt: DB73C1F8, Facs: DBF25D40)
+25:448  0:000        DB73C1F8: 'DSDT', 'CBX3', Rev: 2, Len: 141429
+25:451  0:002        DBF25D40: 'FACS', Ver: 0, Len: 64
+25:451  0:000    1. DB75EB80: 'APIC', 'CBX3', Rev: 3, Len: 132
+25:451  0:000    2. DB75EC08: 'FPDT', 'CBX3', Rev: 1, Len: 68
+25:451  0:000    3. DB75EC50: 'MCFG', 'CBX3', Rev: 1, Len: 60
+25:451  0:000    4. DB75EC90: 'HPET', 'CBX3', Rev: 1, Len: 56
+25:451  0:000    5. DB75ECC8: 'SSDT', 'SaSsdt', Rev: 2, Len: 21612
+25:451  0:000    6. DB764138: 'UEFI', '', Rev: 1, Len: 66
+25:451  0:000    7. DB764180: 'LPIT', 'SKL', Rev: 1, Len: 148
+25:451  0:000    8. DB764218: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+25:451  0:000    9. DB764460: 'SSDT', 'PtidDevc', Rev: 2, Len: 11182
+25:451  0:000    10. DB767010: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3043
+25:451  0:000    11. DB767BF8: 'SSDT', 'zpodd', Rev: 2, Len: 1187
+25:451  0:000    12. DB7680A0: 'DBGP', '', Rev: 1, Len: 52
+25:451  0:000    13. DB7680D8: 'DBG2', '', Rev: 0, Len: 84
+25:451  0:000    14. DB768130: 'SSDT', 'DELL__MT', Rev: 2, Len: 1555
+25:451  0:000    15. DB768748: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+25:451  0:000    16. DB7695C0: 'SLIC', 'CBX3', Rev: 3, Len: 374
+25:451  0:000    17. DB769738: 'BGRT', '', Rev: 0, Len: 56
+25:451  0:000    18. DB769770: 'ASF!', ' HCG', Rev: 32, Len: 165
+25:451  0:000    19. DB769818: 'DMAR', 'SKL', Rev: 1, Len: 168
